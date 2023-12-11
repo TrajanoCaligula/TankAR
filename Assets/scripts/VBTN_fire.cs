@@ -5,25 +5,29 @@ using Vuforia;
 
 public class VBTN_fire : MonoBehaviour
 {
-    public GameObject vehicle;
-    public VirtualButtonBehaviour Vb;
+    public GameObject my_object;
+    public VirtualButtonBehaviour vbtn_fire;
+    public bool my_object_active;
 
     // Start is called before the first frame update
     void Start()
     {
-        vehicle.SetActive(false);
+        my_object.transform.parent.gameObject.SetActive(false);
+        my_object_active = false;
 
-        Vb.RegisterOnButtonPressed(OnButtonPressed);
-        Vb.RegisterOnButtonReleased(OnButtonReleased);
+        vbtn_fire.RegisterOnButtonPressed(OnButtonPressed);
+        vbtn_fire.RegisterOnButtonReleased(OnButtonReleased);
     }
 
     public void OnButtonPressed(VirtualButtonBehaviour vb)
     {
-        vehicle.SetActive(true);
+        my_object_active = !my_object_active;
+        my_object.transform.parent.gameObject.SetActive(my_object_active);
+
+        my_object.transform.Rotate(Vector3.up, 20f);
     }
 
     public void OnButtonReleased(VirtualButtonBehaviour vb)
     {
-        vehicle.SetActive(false);
     }
 }
