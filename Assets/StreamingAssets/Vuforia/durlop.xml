@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig>
+  <Tracking>
+    <ImageTarget name="target_car" size="1.000000 1.000000" />
+    <ImageTarget name="house" size="1.000000 1.000000" />
+    <ImageTarget name="Fissure_scaled" size="5.000000 8.636364" />
+    <ImageTarget name="Drone_scaled" size="8.000000 13.818182" />
+    <ImageTarget name="Astronaut_scaled" size="5.000000 8.636364" />
+    <ImageTarget name="target2" size="10.000000 10.000000" />
+  </Tracking>
+</QCARConfig>
