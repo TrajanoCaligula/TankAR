@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <QCARConfig>
   <Tracking>
+    <ImageTarget name="target3" size="4.000000 4.320000" />
+    <ImageTarget name="target2" size="4.000000 4.320000" />
+    <ImageTarget name="target" size="5.000000 5.400000" />
     <ImageTarget name="Turret" size="10.000000 10.800000" />
   </Tracking>
 </QCARConfig>
