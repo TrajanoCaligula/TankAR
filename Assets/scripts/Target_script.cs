@@ -17,4 +17,21 @@ public class Target_script : MonoBehaviour
     {
         
     }
+
+    void OnBecameVisible()
+    {
+        my_object.SetActive(true);
+        if(my_object.name == "Vehicle_v3")
+        {
+            my_object.transform.position = new Vector3(0.0f,0.0f,0.0f);
+        }else if(my_object.name == "Vehicle_v1")
+        {
+            my_object.transform.localScale = new Vector3(1.0f,1.0f,1.0f);
+        }
+    }
+
+    void OnBecameInvisible()
+    {
+        my_object.SetActive(false);
+    }
 }
