@@ -24,7 +24,7 @@ MonoBehaviour:
     shareRecordingsInITunes: 0
     logLevel: 0
     version: 10.19.3
-    eulaAcceptedVersions: '{"Values":["10.19"]}'
+    eulaAcceptedVersions: '{"Values":["10.19","0.0"]}'
   database:
     disableModelExtraction: 0
   shaders:
@@ -43,7 +43,7 @@ MonoBehaviour:
     thirdPartyARCoreClientDetected: 0
   playmode:
     mRecordingPath: 
-    playModeType: 0
+    playModeType: 1
   webcam:
     renderTextureLayer: 30
   packageInformation:
