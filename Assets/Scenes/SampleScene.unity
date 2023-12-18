@@ -2717,7 +2717,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bulletPrefab: {fileID: 1148743772580377718, guid: 64fb687816e9f8f49ae75e356fcc7097, type: 3}
-  detectionRadius: 3
+  detectionRadius: 6
   cube: {fileID: 1025533125}
   points_text: {fileID: 1935300794}
 --- !u!136 &1370639147
@@ -3858,7 +3858,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bulletPrefab: {fileID: 1148743772580377718, guid: 64fb687816e9f8f49ae75e356fcc7097, type: 3}
-  detectionRadius: 3
+  detectionRadius: 6
   cube: {fileID: 1210255998}
   points_text: {fileID: 1935300794}
 --- !u!136 &2089110263
@@ -3880,7 +3880,7 @@ CapsuleCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 2
+  m_Radius: 1
   m_Height: 10
   m_Direction: 1
   m_Center: {x: 0, y: 0, z: 0}
